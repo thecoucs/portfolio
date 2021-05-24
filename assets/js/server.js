@@ -5,7 +5,7 @@ let express = require("express"),
 
 let app = express();
 
-app.use(express.static("portfolio"));
+app.use(express.static("src"));
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
